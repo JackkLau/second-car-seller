@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "platform": "autohome",
+    "externalId": "59932190",
+    "url": "https://wap.che168.com/dealer/559088/59932190.html",
+    "fetchedAt": "2026-10-29T17:00:00Z",
+    "method": "manual_capture",
+    "authorizationReference": null
+  },
+  "vehicle": {
+    "title": "极氪009 2022款 改款 WE版",
+    "registrationMonth": "2023-11",
+    "mileageKm": 112300,
+    "transmission": "自动",
+    "city": "杭州"
+  },
+  "listing": {
+    "priceCny": 355400,
+    "transferFeeCny": null,
+    "transferCount": 0,
+    "status": "unknown"
+  },
+  "coverage": {
+    "inspection": {
+      "status": "not_disclosed",
+      "note": "公开页面未提供本车逐项检测报告；通用保障说明不能作为检测结论。"
+    },
+    "insurance": {
+      "status": "requires_authorization",
+      "note": "未获取保单；需取得授权资料，不能由通用保障文案推断。"
+    },
+    "claims": {
+      "status": "requires_authorization",
+      "note": "未获取出险记录；未知不代表没有出险。"
+    },
+    "maintenance": {
+      "status": "requires_authorization",
+      "note": "页面只有维保查询入口，未获取实际维保事件。"
+    }
+  },
+  "inspections": [],
+  "insurancePolicies": [],
+  "insuranceClaims": [],
+  "maintenanceEvents": []
+}

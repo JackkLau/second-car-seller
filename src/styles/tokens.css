@@ -1,0 +1,27 @@
+:root {
+  --color-primary: #0b6e62;
+  --color-primary-hover: #08574e;
+  --color-ink: #183340;
+  --color-muted: #526972;
+  --color-canvas: #f4f7f8;
+  --color-surface: #ffffff;
+  --color-line: #dce5e7;
+  --color-mint: #e8f3ee;
+  --color-warning: #895812;
+  --color-warning-bg: #fff5e4;
+  --color-danger: #ac3b42;
+  --font-display: "Avenir Next", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-body: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  --font-numeric: "Avenir Next", "Segoe UI", sans-serif;
+  --radius-default: 12px;
+  --radius-sm: 8px;
+  --radius-lg: 20px;
+  --radius-hero: 24px;
+  --space-section: 40px;
+  --page-max: 1320px;
+  --card-gap: 22px;
+  --scrollbar-thumb: #a0b4bb;
+  --scrollbar-track: #edf2f3;
+  --scrollbar-hover: #718e98;
+  --scrollbar-active: #506f7a;
+}

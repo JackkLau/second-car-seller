@@ -1,0 +1,325 @@
+.recommendation-notice,
+.detail-recommendation,
+.visit-plan-summary {
+  margin: 0 0 20px;
+  padding: 16px 18px;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-default);
+  background: var(--color-mint);
+}
+.recommendation-notice p,
+.detail-recommendation > p {
+  margin-top: 5px;
+  color: var(--color-muted);
+  font-size: 13px;
+}
+.card-recommendation {
+  margin: 8px 0 12px;
+  padding: 12px;
+  border-radius: var(--radius-sm);
+  background: var(--color-mint);
+  font-size: 12px;
+}
+.card-recommendation p {
+  margin-top: 5px;
+}
+.card-recommendation strong {
+  font-size: 13px;
+}
+.card-recommendation.needs-mismatch,
+.recommendation-cautions {
+  background: var(--color-warning-bg);
+}
+.recommendation-caution {
+  color: var(--color-warning);
+}
+.card-recommendation button {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 32px;
+  padding: 4px 0;
+  color: var(--color-primary);
+  text-align: left;
+  font-weight: 600;
+}
+.card-recommendation button:hover {
+  text-decoration: underline;
+}
+.detail-recommendation ul {
+  padding-left: 21px;
+  margin: 10px 0 0;
+}
+.detail-recommendation li + li {
+  margin-top: 5px;
+}
+.recommendation-cautions {
+  margin-top: 14px;
+  padding: 12px 15px;
+  border-radius: var(--radius-sm);
+  color: var(--color-warning);
+}
+.inspection-records > section + section {
+  margin-top: 20px;
+}
+.inspection-records h4 {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+}
+.inspection-records h4 > span {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--color-muted);
+}
+.inspection-record-list,
+.additional-costs > ul,
+.visit-plan-summary > ul {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+}
+.inspection-record-list > li {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--color-line);
+}
+.inspection-record-heading {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.inspection-state {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--color-primary);
+  font-size: 12px;
+}
+.inspection-state-attention,
+.inspection-state-pending,
+.inspection-state-unverified {
+  color: var(--color-warning);
+}
+.inspection-record-list p {
+  margin: 5px 0;
+  font-size: 13px;
+}
+.inspection-record-list small {
+  color: var(--color-muted);
+  overflow-wrap: anywhere;
+}
+.vehicle-guidance {
+  margin-top: 28px;
+  padding-top: 26px;
+  border-top: 1px solid var(--color-line);
+}
+.vehicle-guidance .section-title {
+  flex-wrap: wrap;
+}
+.visit-task-list {
+  margin-top: 18px;
+}
+.visit-task-list legend {
+  margin-bottom: 12px;
+  font-weight: 650;
+}
+.visit-task {
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-default);
+}
+.visit-task.is-selected {
+  border-color: var(--color-primary);
+  background: var(--color-mint);
+}
+.visit-task-choice {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 32px;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+.visit-task-choice:hover strong {
+  color: var(--color-primary);
+}
+.visit-task-choice input {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  flex-shrink: 0;
+}
+.visit-task-choice > span {
+  font-size: 11px;
+  color: var(--color-primary);
+  margin-left: auto;
+}
+.visit-task > p {
+  margin: 5px 0 0 28px;
+  color: var(--color-muted);
+  font-size: 13px;
+}
+.task-coordination {
+  margin: 10px 0 0 28px;
+}
+.task-coordination summary {
+  cursor: pointer;
+  color: var(--color-primary);
+  padding: 6px 0;
+  font-size: 13px;
+}
+.task-coordination summary:hover {
+  text-decoration: underline;
+}
+.task-coordination summary:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 3px;
+}
+.task-coordination dl {
+  margin: 10px 0 0;
+  font-size: 13px;
+}
+.task-coordination dl > div {
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr);
+  gap: 8px;
+  margin-top: 8px;
+}
+.task-coordination dt {
+  color: var(--color-muted);
+}
+.task-coordination dd {
+  margin: 0;
+}
+.visit-plan-action {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+.visit-plan-action > p {
+  font-size: 13px;
+  color: var(--color-muted);
+}
+.sales-cooperation,
+.additional-costs {
+  margin-top: 30px;
+}
+.sales-cooperation ol {
+  padding-left: 22px;
+}
+.sales-cooperation li {
+  padding: 0 0 14px 6px;
+}
+.sales-cooperation li::marker {
+  color: var(--color-primary);
+  font-weight: 650;
+}
+.sales-cooperation li p {
+  margin-top: 5px;
+  font-size: 13px;
+  color: var(--color-muted);
+}
+.additional-costs > p {
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--color-muted);
+}
+.additional-costs > ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+.additional-costs li {
+  padding: 14px;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-sm);
+}
+.additional-costs li > div {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.additional-costs li > div > span {
+  color: var(--color-warning);
+  font-weight: 600;
+}
+.additional-costs li p {
+  margin-top: 6px;
+  font-size: 13px;
+}
+.additional-costs li small {
+  display: block;
+  margin-top: 6px;
+  color: var(--color-muted);
+}
+.additional-costs .cost-confirmation {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 12px;
+  border-radius: var(--radius-sm);
+  color: var(--color-warning);
+  background: var(--color-warning-bg);
+}
+.cost-confirmation svg {
+  margin-top: 3px;
+}
+.visit-plan-summary {
+  margin-top: 20px;
+  text-align: left;
+}
+.visit-plan-summary h3 {
+  font-size: 16px;
+}
+.visit-plan-summary > p {
+  margin-top: 8px;
+  font-size: 13px;
+}
+.visit-plan-summary > ul > li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--color-line);
+}
+.visit-plan-summary li p {
+  font-size: 13px;
+  margin-top: 5px;
+}
+.visit-plan-summary li small {
+  color: var(--color-muted);
+}
+.booking-plan-review {
+  margin: 0 0 20px;
+}
+@media (max-width: 600px) {
+  .additional-costs > ul {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .visit-task {
+    padding: 12px;
+  }
+  .visit-task > p,
+  .task-coordination {
+    margin-left: 0;
+  }
+  .task-coordination dl > div {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2px;
+  }
+  .visit-plan-action .button {
+    width: 100%;
+  }
+  .inspection-record-heading {
+    align-items: flex-start;
+  }
+  .detail-recommendation,
+  .visit-plan-summary {
+    padding: 14px;
+  }
+}

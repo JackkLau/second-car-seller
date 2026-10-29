@@ -1,0 +1,40 @@
+{
+  "name": "cardisplay",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "typecheck": "tsc -b",
+    "test": "node --experimental-strip-types --test src/lib/*.test.ts",
+    "test:e2e": "playwright test",
+    "data:setup": "npm ci --prefix backend",
+    "data:migrate": "npm --prefix backend run migrate",
+    "data:fetch": "npm --prefix backend run ingest --",
+    "data:import": "npm --prefix backend run import --",
+    "data:start": "npm --prefix backend start",
+    "data:test": "npm --prefix backend test",
+    "format": "prettier --write src tests backend docs *.json *.ts *.html *.md",
+    "format:check": "prettier --check src tests backend docs *.json *.ts *.html *.md"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "@axe-core/playwright": "^4.10.2",
+    "prettier": "^3.6.2",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.7"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  }
+}

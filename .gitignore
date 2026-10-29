@@ -1,0 +1,10 @@
+node_modules/
+dist/
+playwright-report/
+test-results/
+premium-audit.json
+*.tsbuildinfo
+.DS_Store
+.env
+.env.*
+!.env.example
